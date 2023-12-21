@@ -1,0 +1,10 @@
+cabal-version:      2.4
+name:               snakeGame
+version:            0.1.0.0
+
+executable my-first-haskell-project
+    hs-source-dirs:   .
+    main-is:          SnakeGame.hs
+    build-depends:    base, random, ansi-terminal, containers, mtl
+    ghc-options:      -main-is SnakeGame
+    default-language: GHC2021
