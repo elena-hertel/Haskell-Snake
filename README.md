@@ -5,9 +5,13 @@ command line snake game in haskell with pixelated lettering
 How to play:
 
 Open terminal and navigate to the project folder
+
 ~> ghci
+
 ghci> :set -package mtl # if you see an error instructing you to do this
+
 ghci> :l SnakeGame.hs
+
 ghci> main
 
 This will open the game interface, which will provide brief instructions regarding snake controls, and prompt the user to press SPACE to begin.
